@@ -1,0 +1,57 @@
+.Contact_box{
+    background-color: #3d3e42;
+    
+}
+.Contact-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    
+}
+.Contact-heading h1{
+    font-size:55px;
+    color:#ffffff;
+}
+.contact-line{
+   width:40vw;
+   height: 3px;
+   background-color: #f0bf6c;
+}
+.Contact-info{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding:35px 0;
+}
+.Contact-info-item{
+    display: flex;
+    background-color:#31333b;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    margin:10px;
+    width:35vw;
+
+}
+.mail{
+    color: white;
+    font-size:40px;
+    margin:15px;
+}
+.Contact-info-item h4{
+    color: #fcc770;
+}
+.contact-icon{
+    color: white;
+    font-size:40px;
+    margin:13px;
+}
+.contact-icon-box{
+    display: flex;
+    margin:0 20px;
+}

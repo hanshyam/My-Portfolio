@@ -1,0 +1,10 @@
+.Thanks-box{
+    background-color: #31333b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.Thanks-box h1{
+    color: #ffc86b;
+}

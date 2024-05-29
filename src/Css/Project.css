@@ -1,0 +1,68 @@
+.Project_section{
+    background-color: #31333b;
+    padding:5vw 10vw;
+
+}
+.Project_section h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 55px;
+}
+.pbox{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+.project_box{
+    position: relative;
+    margin:10px;
+    height:15vw;
+    width: 25vw;
+    border-radius: 10px;
+}
+.project_box img{
+    width: 25vw;
+    height: 14vw;
+    cursor: pointer;
+    z-index: 2;
+}
+ .project_box img:hover{
+    filter: blur(6px);
+}
+.Other-info{
+    background-color:transparent;
+    z-index:0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    /* padding: 20px; */
+
+}
+.Other-info h3,p{
+    color: #fcc770;
+}
+.Other-info button{
+    color: #fcc770;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 3px solid #fcc770;
+    cursor: pointer;
+    font-size: 24px;
+}
+.Other-info button:hover{
+    background-color: #f87800;
+    color: white;
+}
+.Other-info-back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}

@@ -1,0 +1,50 @@
+.Contacts_box{
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3d3e42;
+    color: white;
+    padding:40px 0;
+}
+.Cbox{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 800px;
+    width: 30vw;
+    background-color: #31333b;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.Cbox input,textarea,button{
+    width: 100%;
+}
+.Cbox textarea{
+    margin: 10px;
+}
+.Cbox input,textarea{
+   padding: 8px 10px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   background-color: #424244;
+   color: white;
+}
+.Cbox button{
+    background-color: #424244;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin: 10px;
+}
+.Cbox button:hover{
+    background-color: #3d3e42;
+    font-weight: 700;
+}

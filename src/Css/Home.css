@@ -2,18 +2,20 @@
     background-color: #34353a;
     width: 100vw;
     height: 120vh;
-    padding:0 15vw;
+    padding:20px 15vw;
 }
 .header{
     display: flex;
     padding:60px 0;
-    justify-content: space-between;
+    gap:50px;
+    top:10px;
     align-items: center;
-    
 }
+
 .header-option ul{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 .header-option a{
     text-decoration: none;
@@ -49,10 +51,78 @@
     display: flex;
     align-items: center;
 }
+
 .home-info h2{
     color: white;
 }
-.home-info span{
+.my-Name{
     color: #fcc770;
     font-size: 45px;
+    margin-left: 10px;
+}
+
+.headerMini{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: #3d3e42;
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.hmini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerMini img{
+    width: 10vw;
+}
+.HamLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius:5px;
+}
+.HamLogo:hover{
+    background-color: #34353a;
+}
+.hamline{
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    height: 3px;
+}
+.haminfo{
+    display: flex;
+    flex-direction: column;
+    color: #a3a4a5;
+}
+.haminfo li{
+   list-style: none;
+   margin: 10px 0;
+   cursor: pointer;
+}
+.haminfo li:hover{
+    color: white;
+    font-weight: 500;
+}
+.haminfo li a{
+    color: #a3a4a5;
+    text-decoration: none;
+    font-size: 20px;
+}
+.haminfo li a:hover{
+    color: white;
+    font-weight: 500;
+}
+@media only screen and (max-width:600px){
+    .home{
+        padding: 5vw 50px;
+    }
 }

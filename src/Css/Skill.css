@@ -32,3 +32,20 @@
 .Skill_box:hover{
     background-color: #f0bf6c;
 }
+.skillImg{
+    max-width:10vw;
+}
+
+
+@media only screen and (max-width:1100px){
+    .Skill_section{
+       padding: 0 5vw;
+    }   
+    .Skill_box{
+        width:220px;
+        height: 220px;
+    }
+    .Skill_box img{
+        min-width:150px;
+    }
+}

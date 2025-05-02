@@ -5,6 +5,9 @@ import JavaScript_img from "../assets/Javascript.png"
 import React_img from "../assets/React.webp"
 import git_img from "../assets/git.webp"
 import Bootstap_img from "../assets/Bootstap.png"
+import Express_img from "../assets/Express.png"
+import Node_img from "../assets/Node.png"
+import Mongo_img from "../assets/mongodb.svg"
 import "../Css/Skill.css"
 function Skill() {
     const skill=[
@@ -32,6 +35,18 @@ function Skill() {
             img:Bootstap_img,
             name:"Bootstrap",
         },
+        {
+            img:Express_img,
+            name:"ExpressJs",
+        },
+        {
+            img:Node_img,
+            name:"NodeJs",
+        },
+        {
+            img:Mongo_img,
+            name:"MongoDB",
+        },
     ]
   return (
     <div className='Skill_section'>
@@ -39,7 +54,7 @@ function Skill() {
         <div className="box">
           {skill.map((data) =>(
             <div className='Skill_box' key={data.name}>
-             <img width="180px" src={data.img}></img>
+             <img className='skillImg' src={data.img}></img>
              <h3>{data.name}</h3>
           </div>
           ))}

@@ -4,7 +4,7 @@ const Header = ({scrollToSection,homeRef,aboutRef,contactRef}) => {
     return(
       <div className="header">
          <div>
-            <img  width="79px" src = {icon}/>
+            <img  width="80px" src = {icon}/>
          </div>
          <div className="header-option">
             <ul>
